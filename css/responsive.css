@@ -1,0 +1,24 @@
+/* TABLET */
+@media screen and (min-width:  ) {
+    
+}
+
+
+
+
+/* DESKTOP */
+@media  screen and (min-width: 992px) {
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    header .menu-mobile{
+        display: none;
+    }
+
+    header .menu-desktop{
+        display: block;
+    }
+    
+}

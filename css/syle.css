@@ -20,3 +20,37 @@ html{
     --font-black: #000000;
     --font-yellow: #FDC15F;
 }
+.container{
+    width: 100%;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* HEADER-BAR */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--primary-col);
+    padding: .5em .8em;
+}
+header .menu-mobile{
+    color: var(--font-white);
+}
+header .menu-desktop{
+    display: none;
+}
+.menu-desktop ul{
+    display: flex;
+    color: var(--font-white);
+}
+header li{
+    list-style-type: none;
+    margin-left: .5em;
+}
