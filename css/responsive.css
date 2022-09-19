@@ -1,5 +1,18 @@
 /* TABLET */
-@media screen and (min-width:  ) {
+@media screen and (min-width:768px) {
+    #about .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    #about .card{
+        width: calc(100% / 3 - (1.5rem * 2 / 3));
+        margin-bottom: 0;
+    }
+    #about .card:first-child{
+        width: calc(100% / 3 * 2 - 1.5rem / 3);
+    }
     
 }
 
@@ -13,6 +26,7 @@
         margin: 0 auto;
     }
     
+    /* Header-bar */
     header .menu-mobile{
         display: none;
     }
@@ -21,4 +35,15 @@
         display: block;
     }
     
+    /* Main */
+    /* Section-about */
+    #about .image-wrapper{
+        display: flex;
+    }
+    .image-wrapper .wrapper-text{
+        width: 50%;
+    }
+    .image-wrapper .wrapper-img{
+        width: 50%;
+    }
 }

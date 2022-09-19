@@ -8,6 +8,9 @@ html{
     font-size: 100%;
     font-family: 'PT Sans',sans-serif;
 }
+img{
+    width: 100%;
+}
 /* COMMON */
 :root{
     /* Color */
@@ -53,4 +56,24 @@ header .menu-desktop{
 header li{
     list-style-type: none;
     margin-left: .5em;
+}
+/* MAIN */
+.row{
+    padding: 1.5em;
+}
+.card{
+    padding: 1em;
+    text-align: center;
+    background-color: var(--primary-col-light);
+    border-radius: 15px;
+    margin-bottom: 1em;
+    /* debug */
+    border: 1px solid red;
+}
+/* SECTION ABOUT */
+#about{
+    padding-top: 5rem;
+}
+#about .card:first-child{
+    padding-bottom: 0;
 }
