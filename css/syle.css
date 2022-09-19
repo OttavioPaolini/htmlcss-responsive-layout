@@ -86,3 +86,21 @@ header li{
     background-color: var(--font-white);
     border-radius: 30px;
 }
+/* SECTION PARTNERS */
+#partners .row{
+    width: 100%;
+}
+.partner-card{
+    background-color: var(--secondary-col);
+    /* debug */
+    border: 1px solid red;
+}
+.partner-card img{
+    border-radius: 50%;
+}
+.partner-img{
+    width: 30%;
+}
+.partner-text{
+    width: 70%;
+}

@@ -1,5 +1,6 @@
 /* TABLET */
 @media screen and (min-width:768px) {
+    /* ABOUT */
     #about .row{
         display: flex;
         flex-wrap: wrap;
@@ -12,6 +13,10 @@
     }
     #about .card:first-child{
         width: calc(100% / 3 * 2 - 1.5rem / 3);
+    }
+    /* PARTNER */
+    #partners .partner-card{
+        display: flex;
     }
     
 }
