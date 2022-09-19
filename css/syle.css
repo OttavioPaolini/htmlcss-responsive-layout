@@ -8,3 +8,15 @@ html{
     font-size: 100%;
     font-family: 'PT Sans',sans-serif;
 }
+/* COMMON */
+:root{
+    /* Color */
+    --primary-col: #0084FD;
+    --primary-col-light: #B5DDFF;
+    --secondary-col: #9792E4;
+
+    /* font-color */
+    --font-white:#FFFFFF;
+    --font-black: #000000;
+    --font-yellow: #FDC15F;
+}
