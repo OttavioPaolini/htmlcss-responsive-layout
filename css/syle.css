@@ -98,9 +98,12 @@ header li{
 .partner-card img{
     border-radius: 50%;
 }
-.partner-img{
-    width: 30%;
+/* SECTION BENEFITS */
+#benefit{
+    background-color: var(--secondary-col);
 }
-.partner-text{
-    width: 70%;
+.col{
+    background-color: var(--font-white);
+    /* debug */
+    border: 1px solid black;
 }
