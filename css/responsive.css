@@ -46,4 +46,12 @@
     .image-wrapper .wrapper-img{
         width: 50%;
     }
+    /* Section Planning */
+    #planning .row{
+        display: flex;
+        padding: 5rem;
+    }
+    #planning .planning-card{
+        margin-top: 8rem;
+    }
 }

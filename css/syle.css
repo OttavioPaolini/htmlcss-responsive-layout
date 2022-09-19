@@ -77,3 +77,12 @@ header li{
 #about .card:first-child{
     padding-bottom: 0;
 }
+/* SECTION PLANNING */
+#planning{
+    padding: 1rem;
+    background-color: var(--secondary-col);
+}
+#planning .planning-card{
+    background-color: var(--font-white);
+    border-radius: 30px;
+}
