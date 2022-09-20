@@ -23,6 +23,16 @@ img{
     --font-black: #000000;
     --font-yellow: #FDC15F;
 }
+.btn{
+    border-radius: 25px;
+    padding: 0.5em 4em;
+    display: inline-block;
+    /* debug */
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;   
+}
 .container{
     width: 100%;
 }
@@ -33,6 +43,7 @@ img{
 .space-between{
     justify-content: space-between;
 }
+b
 /* HEADER-BAR */
 header{
     width: 100%;
@@ -63,12 +74,9 @@ header li{
 }
 .card{
     padding: 1em;
-    text-align: center;
     background-color: var(--primary-col-light);
     border-radius: 15px;
     margin-bottom: 1em;
-    /* debug */
-    border: 1px solid red;
 }
 /* SECTION ABOUT */
 #about{
@@ -76,6 +84,22 @@ header li{
 }
 #about .card:first-child{
     padding-bottom: 0;
+}
+#about h3{
+    text-align: center;
+    color: var(--primary-col);
+    padding: 1em;
+}
+#about .btn{
+    background-color: var(--primary-col);
+    color: var(--font-white);
+    margin: 1.5em .5em;
+}
+
+#about .icon-f{
+    text-align: center;
+    color: var(--primary-col);
+    font-size: 5em;
 }
 /* SECTION PLANNING */
 #planning{
@@ -91,13 +115,18 @@ header li{
     width: 100%;
 }
 .partner-card{
+    text-align: center;
     background-color: var(--secondary-col);
     /* debug */
     border: 1px solid red;
 }
-.partner-card img{
+#partners .partner-img img{
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    object-fit: cover;
 }
+
 /* SECTION BENEFITS */
 #benefit{
     background-color: var(--secondary-col);
